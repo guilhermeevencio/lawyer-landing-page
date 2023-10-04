@@ -1,9 +1,29 @@
 import Image from 'next/image'
+import headerbackground from '../../public/assets/images/home-header-background.jpg'
+import Link from 'next/link'
+// import '../../public/home-header-background.jpg'
 
 export default function Home() {
   return (
     <main className="home_container">
-      <h1 className='h1_style_playfair'>Home</h1>
+      <header className='home_header_container'>
+        <div className='px-16 w-2/4 pt-32 flex flex-col gap-10'>
+        <h2 className='h2_style_montserrat'>Rubijefson Dantas</h2>
+        <h1 className='h1_style_playfair'>Advocacia e Assessoria Jurídica atuante em todo o <em>Brasil</em></h1>
+        <p className='home_header_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Non sodales neque sodales ut etiam sit. Leo a diam sollicitudin tempor. Pretium viverra suspendisse potenti nullam ac.
+          Facilisis volutpat est velit egestas dui id. Vitae semper quis lectus nulla at volutpat diam.</p>
+
+          <Link href='https://wa.me/5586988568195' className='contact_btn_whatsapp_white'>
+          Entre em Contato
+        </Link>
+        </div>
+
+
+      </header>
+      <section className='bg-red-400 h-screen p-24'>
+        <h1>Mais que um Ecritório de Advocacia</h1>
+      </section>
     </main>
   )
 }

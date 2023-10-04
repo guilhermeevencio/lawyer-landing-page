@@ -12,16 +12,12 @@ const config: Config = {
         montserrat: ['Montserrat', 'sans-serif'],
         playfair_display: ['Playfair Display', 'sans-serif'],
       },
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
       colors: {
         'offwhite': '#F1EFEF',
         'black': '#000000',
         'white': '#FFFFFF',
-      }
+      },
+      
     },
   },
   plugins: [],

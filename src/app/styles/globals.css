@@ -4,20 +4,28 @@
 @tailwind components;
 @tailwind utilities;
 
-.main_layout { @apply antialiased p-0 box-border m-auto bg-black overflow-hidden }
+.main_layout { @apply antialiased p-0 box-border m-auto bg-black font-montserrat  }
 
 /* Elements */
 
-.h1_style_playfair { @apply font-playfair_display }
+.h1_style_playfair { @apply font-playfair_display text-4xl font-bold  }
+
+.h2_style_montserrat { @apply font-montserrat text-2xl }
 
 .contact_btn_whatsapp { @apply border border-black w-48 h-10 flex items-center justify-center text-lg}
+
+.contact_btn_whatsapp_white { @apply border border-white w-48 h-10 flex items-center justify-center text-lg }
 
 .contact_btn_whatsapp:hover { @apply bg-black text-offwhite transition ease-in-out duration-300 }
 
 /* Nav */
 
-.nav_container { @apply  flex flex-row justify-between h-24 items-center px-16 bg-offwhite }
+.nav_container { @apply  flex flex-row justify-between h-24 w-full items-center px-16 bg-offwhite fixed top-0 shadow-md}
 
 /* Home */
-.home_container { @apply w-full text-slate-50 }
+.home_container { @apply w-full text-slate-50 h-screen mt-24}
+
+.home_header_container { @apply bg-[url('/home-header-background.jpg')] bg-no-repeat bg-cover bg-center h-screen bg-fixed }
+
+.home_header_text { @apply text-base }
 
