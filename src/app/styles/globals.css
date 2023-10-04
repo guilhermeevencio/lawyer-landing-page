@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@300;400;500;600;700;900&family=Playfair+Display:wght@400;500;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main_layout { @apply antialiased p-0 box-border m-auto bg-black overflow-hidden }
+
+/* Elements */
+
+.h1_style_playfair { @apply font-playfair_display }
+
+.contact_btn_whatsapp { @apply border border-black w-48 h-10 flex items-center justify-center text-lg}
+
+.contact_btn_whatsapp:hover { @apply bg-black text-offwhite transition ease-in-out duration-300 }
+
+/* Nav */
+
+.nav_container { @apply  flex flex-row justify-between h-24 items-center px-16 bg-offwhite }
+
+/* Home */
+.home_container { @apply w-full text-slate-50 }
+
