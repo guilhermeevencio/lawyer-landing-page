@@ -20,7 +20,7 @@ export default function Nav() {
           <Link href='/atuacao'>Atuação</Link>
           <Link href='/blog'>Blog</Link>
         </div>
-        <Link href='https://wa.me/5586988568195' className='contact_btn_whatsapp'>
+        <Link href='https://wa.me/5586988568195' className='btn_black_text'>
           Entre em Contato
         </Link>
       </div>
