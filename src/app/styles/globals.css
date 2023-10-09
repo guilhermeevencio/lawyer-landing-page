@@ -8,7 +8,7 @@
 
 /* Elements */
 
-.h1_style_playfair { @apply font-playfair_display text-4xl font-bold  }
+.h1_style_playfair { @apply font-playfair_display text-center md:text-left text-2xl md:text-4xl font-bold  }
 
 .h2_style_montserrat { @apply font-montserrat text-2xl text-offwhite font-medium}
 
@@ -35,7 +35,7 @@
 
 .home_header_container { @apply bg-[url('/home-header-background.jpg')] bg-no-repeat bg-cover bg-center bg-scroll pb-24}
 
-.home_header_text { @apply text-base }
+.home_header_text { @apply text-base text-center md:text-left }
 
 .home_about_section { @apply w-full bg-[url('/about-section-background.png')] bg-no-repeat bg-cover bg-center bg-fixed  text-offwhite text-center flex flex-col justify-center items-center h-screen gap-16 pb-36}
 

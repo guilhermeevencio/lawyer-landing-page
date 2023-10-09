@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="home_container">
       <header className='home_header_container'>
-        <div className='px-16 w-2/4 flex flex-col gap-10 h-screen justify-center'>
+        <div className='px-8 pt-16 gap-8 items-center md:items-start md:pt-16 md:px-16 md:w-2/4 md:gap-10 md:h-screen flex flex-col justify-center'>
         <h2 className='h2_style_montserrat'>Rubijefson Dantas</h2>
         <h1 className='h1_style_playfair'>Advocacia e Assessoria Jurídica atuante em todo o <em>Brasil</em></h1>
         <p className='home_header_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -24,7 +24,7 @@ export default function Home() {
 
 
       </header>
-      <section className='home_about_section'>
+      {/* <section className='home_about_section'>
         <h1 className='h1_style_playfair '>Mais que um Escritório de Advocacia</h1>
         <div className='w-2/3 flex flex-col gap-12'>
           <p className='home_about_text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit adipisci quaerat quis, dignissimos excepturi <strong>vitae rem quod nihil</strong> at.</p>
@@ -50,7 +50,7 @@ export default function Home() {
       </section>
       <section className='home_contact_section'>
           <ContactForm />
-      </section>
+      </section> */}
     </main>
   )
 }
