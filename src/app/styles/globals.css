@@ -43,4 +43,20 @@
 
 .home_specialities_section { @apply bg-white text-black px-16 pb-4 }
 
+/*Form Section */
+.home_contact_section { @apply h-screen bg-[url('/contact-form-background.png')] bg-no-repeat bg-cover bg-center }
+
+.form_container { @apply flex flex-col p-24 justify-center items-center gap-16 }
+
+.social_media_list { @apply flex}
+
+.social_media_list li { @apply flex gap-1}
+
+.social_media_list ul {@apply flex flex-col gap-4}
+
+.form_style { @apply flex flex-col gap-4 w-2/5 }
+
+.form_style input, textarea { @apply border border-offwhite bg-transparent}
+
+.form_style textarea { @apply h-32 }
 

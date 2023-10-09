@@ -3,6 +3,7 @@ import headerbackground from '../../public/assets/images/home-header-background.
 import Link from 'next/link'
 import { specalities } from '@/database/specialities'
 import SpecialityCard from './components/SpecialityCard'
+import ContactForm from './components/ContactForm'
 // import '../../public/home-header-background.jpg'
 
 export default function Home() {
@@ -46,6 +47,9 @@ export default function Home() {
             )
           })}
         </div>
+      </section>
+      <section className='home_contact_section'>
+          <ContactForm />
       </section>
     </main>
   )
