@@ -8,25 +8,25 @@ import ContactForm from './components/ContactForm'
 
 export default function Home() {
   return (
-    <main className="home_container">
+    <main className='home_container'>
       <header className='home_header_container'>
-        <div className='px-8 pt-16 gap-8 items-center md:items-start md:pt-16 md:px-16 md:w-2/4 md:gap-10 md:h-screen flex flex-col justify-center'>
-        <h2 className='h2_style_montserrat'>Rubijefson Dantas</h2>
-        <h1 className='h1_style_playfair'>Advocacia e Assessoria Jurídica atuante em todo o <em>Brasil</em></h1>
-        <p className='home_header_text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Non sodales neque sodales ut etiam sit. Leo a diam sollicitudin tempor. Pretium viverra suspendisse potenti nullam ac.
-          Facilisis volutpat est velit egestas dui id. Vitae semper quis lectus nulla at volutpat diam.</p>
+        <div className='w-full lg:w-2/5 flex flex-col justify-center lg:justify-start items-center lg:items-start gap-8'>
+          <h2 className='h2_style_montserrat'>Rubijefson Dantas</h2>
+          <h1 className='h1_style_playfair'>Advocacia e Assessoria Jurídica atuante em todo o <em>Brasil</em></h1>
+          <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Non sodales neque sodales ut etiam sit. Leo a diam sollicitudin tempor. Pretium viverra suspendisse potenti nullam ac.
+            Facilisis volutpat est velit egestas dui id. Vitae semper quis lectus nulla at volutpat diam.</p>
 
-          <Link href='https://wa.me/5586988568195' className='btn_white_text mt-12'>
-          Entre em Contato
-        </Link>
+          <Link href='https://wa.me/5586988568195' className='btn_white_text'>
+            Entre em Contato
+          </Link>
         </div>
 
 
       </header>
-      {/* <section className='home_about_section'>
-        <h1 className='h1_style_playfair '>Mais que um Escritório de Advocacia</h1>
-        <div className='w-2/3 flex flex-col gap-12'>
+      <section className='home_about_section'>
+        <h1 className='h1_style_playfair'>Mais que um Escritório de Advocacia</h1>
+        <div className='md:w-2/3 flex flex-col gap-8 md:gap-12'>
           <p className='home_about_text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit adipisci quaerat quis, dignissimos excepturi <strong>vitae rem quod nihil</strong> at.</p>
           <p className='home_about_text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit adipisci quaerat quis, dignissimos excepturi <strong>vitae rem quod nihil</strong> at.</p>
           <p className='home_about_text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit adipisci quaerat quis, dignissimos excepturi <strong>vitae rem quod nihil</strong> at.</p>
@@ -35,12 +35,12 @@ export default function Home() {
       </section>
       <section className='home_specialities_section'>
         <div className='flex items-end justify-between'>
-          <div className='mt-24 flex flex-col justify-between w-full'>
-            <h3 className='mb-12 text-xl text-slate-500'>Áreas de Atuação</h3>
+          <div className='gap-8 flex flex-col md:justify-between w-full'>
+            <h3 className='text-center md:text-left text-xl text-slate-500'>Áreas de Atuação</h3>
             <h1 className='h1_style_playfair text-black text-center'>Saiba como podemos te ajudar</h1>
           </div>
         </div>
-        <div className='flex flex-row flex-wrap gap-8 justify-center my-24'>
+        <div className='flex flex-col md:flex-row flex-wrap gap-8 justify-center my-12 md:my-24'>
           {specalities.map((speciality) => {
             return (
               <SpecialityCard {...speciality}  key={speciality.id} />
@@ -50,7 +50,7 @@ export default function Home() {
       </section>
       <section className='home_contact_section'>
           <ContactForm />
-      </section> */}
+      </section>
     </main>
   )
 }

@@ -10,7 +10,7 @@
 
 .h1_style_playfair { @apply font-playfair_display text-center md:text-left text-2xl md:text-4xl font-bold  }
 
-.h2_style_montserrat { @apply font-montserrat text-2xl text-offwhite font-medium}
+.h2_style_montserrat { @apply w-full font-montserrat text-2xl text-offwhite font-medium text-center md:text-left}
 
 .btn_black_text { @apply border border-black text-black w-48 h-10 flex items-center justify-center text-lg}
 
@@ -28,35 +28,35 @@
 
 /* Footer */
 
-.footer_container { @apply bg-offwhite h-[360px] flex justify-between items-center px-16 }
+/* .footer_container { @apply bg-offwhite h-[360px] flex justify-between items-center px-16 } */
 
-/* Home */
+/* Home Page */
 .home_container { @apply w-full text-offwhite mt-24}
 
-.home_header_container { @apply bg-[url('/home-header-background.jpg')] bg-no-repeat bg-cover bg-center bg-scroll pb-24}
+.home_header_container { @apply bg-[url('/home-header-background.jpg')] bg-no-repeat bg-cover bg-center bg-scroll w-full h-screen flex flex-col gap-8 pt-8 px-8 md:px-16 justify-center }
 
 .home_header_text { @apply text-base text-center md:text-left }
 
-.home_about_section { @apply w-full bg-[url('/about-section-background.png')] bg-no-repeat bg-cover bg-center bg-fixed  text-offwhite text-center flex flex-col justify-center items-center h-screen gap-16 pb-36}
+.home_about_section { @apply w-full bg-[url('/about-section-background.png')] bg-no-repeat bg-cover bg-center bg-fixed  text-offwhite text-center flex flex-col justify-center items-center md:h-screen p-8 gap-8 md:gap-16}
 
 .home_about_text { @apply text-xl text-offwhite }
 
-.home_specialities_section { @apply bg-white text-black px-16 pb-4 }
+.home_specialities_section { @apply bg-white text-black p-8 md:px-16 pb-4 }
 
 /*Form Section */
-.home_contact_section { @apply h-screen bg-[url('/contact-form-background.png')] bg-no-repeat bg-cover bg-center }
+.home_contact_section { @apply bg-[url('/contact-form-background.png')] bg-no-repeat bg-cover bg-center }
 
-.form_container { @apply flex flex-col p-24 justify-center items-center gap-16 }
+.form_container { @apply py-24 flex flex-col items-center gap-12}
 
-.social_media_list { @apply flex}
+.social_media_list { @apply flex }
 
-.social_media_list li { @apply flex gap-1}
+.social_media_list li { @apply flex gap-1 }
 
 .social_media_list ul {@apply flex flex-col gap-4}
 
-.form_style { @apply flex flex-col gap-4 w-2/5 }
+.form_style { @apply flex flex-col gap-4 w-full lg:w-2/5 }
 
-.form_style input, textarea { @apply border border-offwhite bg-transparent}
+.form_style input, textarea { @apply border border-offwhite bg-transparent w-full}
 
-.form_style textarea { @apply h-32 }
+.form_style textarea { @apply h-32 w-full }
 

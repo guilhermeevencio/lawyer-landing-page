@@ -5,9 +5,9 @@ import React from 'react'
 export default function ContactForm() {
   return (
     <div className='form_container'>
-      <h2 className='h2_style_montserrat'>Conecte-se conosco</h2>
+      <h2 className='font-montserrat text-2xl text-offwhite font-medium text-center'>Conecte-se conosco</h2>
       <h1 className='h1_style_playfair w-1/2 text-center'>Grandes relacionamentos se iniciam com uma simples conversa!</h1>
-      <div className='flex flex-1 w-4/6 justify-evenly items-center'>
+      <div className='flex flex-col lg:flex-row lg:w-4/6 justify-evenly items-center gap-8'>
         <div className='social_media_list'>
           <ul>
             <li><Envelope size={24} />{'Email: dantasradv@gmail.com'}</li>
