@@ -60,3 +60,9 @@
 
 .form_style textarea { @apply h-32 w-full }
 
+/* About Page */
+
+.about_container { @apply w-full  mt-24 }
+
+.about_header_container { @apply flex justify-center items-center h-48 lg:h-80 bg-[url('/about-page-header-background.jpg')] bg-no-repeat bg-cover bg-center px-8 md:px-16 }
+
