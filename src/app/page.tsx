@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { specalities } from '@/database/specialities'
 import SpecialityCard from './components/SpecialityCard'
 import ContactForm from './components/ContactForm'
+import Footer from './components/Footer'
 // import '../../public/home-header-background.jpg'
 
 export default function Home() {

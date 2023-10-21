@@ -12,7 +12,7 @@ export default function Nav() {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className={`bg-offwhite fixed z-50 top-0 shadow-md w-full ${isOpen ? 'h-4/6 ' : 'h-24'} py-4 px-4 md:px-16`}>
+    <nav className={`bg-offwhite fixed z-50 top-0 shadow-md w-full  py-4 px-4 md:px-16`}>
       <div className='flex flex-col lg:flex-row h-full justify-between'>
         <div className='flex items-center justify-between'>
           <Link href='/'>
@@ -21,6 +21,7 @@ export default function Nav() {
               alt='logo'
               width={144}
               height={144}
+              onClick={() => toggleNavbar()}
             />
           </Link>
           <div className="lg:hidden">
@@ -46,11 +47,11 @@ export default function Nav() {
             </button>
           </div>
         </div>
-        <div className={`flex flex-col h-full justify-center gap-4 items-center lg:w-2/5 lg:flex lg:flex-row lg:justify-between lg:items-center ${isOpen ? 'block' : 'hidden'}`}>
-          <Link href='/sobre'>Sobre</Link>
-          <Link href='/atuacao'>Atuação</Link>
-          <Link href='/blog'>Blog</Link>
-          <Link href='https://wa.me/5586988568195' className='btn_black_text'>
+        <div className={`flex flex-col h-screen justify-start mt-16 lg:mt-0 gap-8 lg:gap-4 items-center lg:h-20 lg:w-2/5 lg:flex lg:flex-row lg:justify-between lg:items-center ${isOpen ? 'block' : 'hidden'}`}>
+          <Link href='/sobre' onClick={() => toggleNavbar()}>Sobre</Link>
+          <Link href='/atuacao' onClick={() => toggleNavbar()}>Atuação</Link>
+          <Link href='/blog' onClick={() => toggleNavbar()}>Blog</Link>
+          <Link href='https://wa.me/5586988568195' className='btn_black_text' onClick={() => toggleNavbar()}>
             Entre em Contato
           </Link>
         </div>
