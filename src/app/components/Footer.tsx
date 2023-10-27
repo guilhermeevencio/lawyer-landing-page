@@ -7,8 +7,8 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <div className='px-4 py-12 flex flex-col items-center md:justify-between md:flex-row gap-8 md:gap-0 bg-offwhite'>
-      <div className='flex flex-col gap-4 md:w-1/2 md:p-8 md:border-r md:border-zinc-400'>
+    <div className='px-4 py-12 flex flex-col items-center md:justify-between md:flex-row md:gap-0 bg-offwhite'>
+      <div className='flex flex-col items-center gap-4 md:w-1/2 md:p-8 md:border-r md:border-zinc-400'>
         <Image src={logo} alt='logo Rubjefson Dantas' width='540' />
         <div className='flex justify-center items-center gap-4'>
           <Link href='tel:5586988568195'>
@@ -20,7 +20,7 @@ export default function Footer() {
           <Link href='mailto:dantasradv@gmail.com'><Envelope size={32} /></Link>
         </div>
       </div>
-      <div className='flex flex-col md:w-1/2 md:pl-28 items-start justify-center gap-4 text-xl'>
+      <div className='flex flex-col pb-12 md:pb-0 md:w-1/2 items-start md:items-center justify-center gap-4 text-xl min-h-[400px] md:min-h-0'>
         <h2 className='font-playfair_display font-bold text-3xl mb-4'>Áreas de Atuação</h2>
         <Link href='/direito-previdenciario'>Direito Previdenciário</Link>
         <Link href='/direito-civil'>Direito Civil</Link>

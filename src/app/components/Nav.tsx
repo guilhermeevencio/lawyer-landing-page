@@ -49,7 +49,6 @@ export default function Nav() {
         </div>
         <div className={`flex flex-col h-screen justify-start mt-16 lg:mt-0 gap-8 lg:gap-4 items-center lg:h-20 lg:w-2/5 lg:flex lg:flex-row lg:justify-between lg:items-center ${isOpen ? 'block' : 'hidden'}`}>
           <Link href='/sobre' onClick={() => toggleNavbar()}>Sobre</Link>
-          <Link href='/atuacao' onClick={() => toggleNavbar()}>Atuação</Link>
           <Link href='/blog' onClick={() => toggleNavbar()}>Blog</Link>
           <Link href='https://wa.me/5586988568195' className='btn_black_text' onClick={() => toggleNavbar()}>
             Entre em Contato

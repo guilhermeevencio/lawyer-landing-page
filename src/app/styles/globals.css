@@ -12,11 +12,11 @@
 
 .h2_style_montserrat { @apply w-full font-montserrat text-2xl text-offwhite font-medium text-center md:text-left}
 
-.btn_black_text { @apply border border-black text-black w-48 h-10 flex items-center justify-center text-lg}
+.btn_black_text { @apply border border-black text-black w-48 md:w-64 h-10 flex items-center justify-center text-lg}
 
 .btn_black_text:hover { @apply bg-black text-offwhite transition ease-in-out duration-300 }
 
-.btn_white_text { @apply border border-offwhite w-48 h-10 flex items-center justify-center text-lg }
+.btn_white_text { @apply border border-offwhite w-48 md:w-64 h-10 flex items-center justify-center text-lg }
 
 .btn_white_text:hover { @apply bg-offwhite text-black transition ease-in-out duration-300 }
 
@@ -31,7 +31,7 @@
 /* .footer_container { @apply bg-offwhite h-[360px] flex justify-between items-center px-16 } */
 
 /* Home Page */
-.home_container { @apply w-full text-offwhite mt-24 }
+.home_container { @apply text-offwhite mt-24 }
 
 .home_header_container { @apply bg-[url('/home-header-background.jpg')] bg-no-repeat bg-cover bg-center bg-scroll w-full h-screen flex flex-col gap-8 px-8 md:px-16 justify-center }
 
@@ -64,5 +64,5 @@
 
 .about_container { @apply w-full  mt-24 bg-offwhite }
 
-.about_header_container { @apply flex justify-center items-center h-48 lg:h-80 bg-[url('/about-page-header-background.jpg')] bg-no-repeat bg-cover bg-center px-8 md:px-16 }
+.about_header_container { @apply flex justify-center items-center h-48 lg:h-72 bg-[url('/about-page-header-background.jpg')] bg-no-repeat bg-cover bg-center px-8 md:px-16 }
 

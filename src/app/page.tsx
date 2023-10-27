@@ -32,7 +32,7 @@ export default function Home() {
           <p className='home_about_text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit adipisci quaerat quis, dignissimos excepturi <strong>vitae rem quod nihil</strong> at.</p>
           <p className='home_about_text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit adipisci quaerat quis, dignissimos excepturi <strong>vitae rem quod nihil</strong> at.</p>
         </div>
-        <Link className='btn_white_text mt-12' href='/about'>Sobre Mim</Link>
+        <Link className='btn_white_text mt-12' href='/sobre'>Sobre Mim</Link>
       </section>
       <section className='home_specialities_section'>
         <div className='flex items-end justify-between'>
