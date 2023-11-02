@@ -47,10 +47,10 @@ export default function Nav() {
             </button>
           </div>
         </div>
-        <div className={`flex flex-col h-screen justify-start mt-16 lg:mt-0 gap-8 lg:gap-4 items-center lg:h-20 lg:w-2/5 lg:flex lg:flex-row lg:justify-between lg:items-center ${isOpen ? 'block' : 'hidden'}`}>
+        <div className={`flex flex-col h-screen justify-start mt-16 lg:mt-0 gap-8 lg:gap-4 items-center lg:h-20 lg:w-1/3 lg:flex lg:flex-row lg:justify-between lg:items-center ${isOpen ? 'block' : 'hidden'}`}>
           <Link href='/sobre' onClick={() => toggleNavbar()}>Sobre</Link>
           <Link href='/blog' onClick={() => toggleNavbar()}>Blog</Link>
-          <Link href='https://wa.me/5586988568195' className='btn_black_text' onClick={() => toggleNavbar()}>
+          <Link href='https://wa.me/5586988568195' className='btn_black_text' target="_blank" onClick={() => toggleNavbar()}>
             Entre em Contato
           </Link>
         </div>

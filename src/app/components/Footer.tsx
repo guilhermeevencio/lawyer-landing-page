@@ -17,7 +17,7 @@ export default function Footer() {
             <WhatsappLogo size={32} />
           </Link>
           <Link href='https://www.instagram.com/advrubijefsondantas/' target="_blank"><InstagramLogo size={32} /></Link>
-          <Link href='mailto:dantasradv@gmail.com'><Envelope size={32} /></Link>
+          <Link href='mailto:dantasradv@gmail.com' target="_blank"><Envelope size={32} /></Link>
         </div>
       </div>
       <div className='flex flex-col pb-12 md:pb-0 md:w-1/2 items-start md:items-center justify-center gap-4 text-xl min-h-[400px] md:min-h-0'>
